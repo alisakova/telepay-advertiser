@@ -1,0 +1,32 @@
+.btn {
+  border-radius: rem(50);
+  padding: rem(20 106);
+  border: none;
+  font-size: rem(25);
+  cursor: pointer;
+  box-shadow: rem(0 4 5) rgba(0, 0, 0, 0.25);
+  transition: color 250ms, background 250ms;
+}
+
+.btn_green {
+  background: $green-btn-color;
+  color: #fff;
+  &:hover {
+    color: #000;
+    background: $yellow-btn-color;
+  }
+}
+
+.btn_yellow {
+  background: $yellow-btn-color;
+  &:hover {
+    color: #fff;
+    background: $green-btn-color;
+  }
+}
+
+@media (max-width: 540px) {
+  .btn {
+    font-size: 1rem;
+  }
+}

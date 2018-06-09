@@ -1,0 +1,41 @@
+@media (max-width: 1080px) {
+	html {
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 1600px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 2000px) {
+	html {
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 1300px) {
+  .container {
+    max-width: none;
+  }
+}
+
+@media (max-width: 960px) {
+	p {
+		font-size: rem(20);
+	}
+	h2 {
+		font-size: rem(35);
+	}
+	h1 {
+		font-size: rem(35);
+	}
+}
+
+@media (max-width: 540px) {
+	h2 {
+		font-size: rem(30);
+	}
+}

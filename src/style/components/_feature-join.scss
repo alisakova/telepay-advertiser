@@ -1,0 +1,25 @@
+.feature-join {
+  background: $gradient-bg;
+  padding: rem(114 0 110);
+  text-align: center;
+  .item {
+    color: #fff;
+  }
+}
+
+.feature-join__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: rem(122);
+}
+
+@media (max-width: 768px) {
+  .feature-join {
+    padding: rem(80 0);
+  }
+  .feature-join__list {
+    margin-bottom: rem(60);
+  }
+}
