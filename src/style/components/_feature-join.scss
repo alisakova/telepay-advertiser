@@ -4,6 +4,7 @@
   text-align: center;
   .item {
     color: #fff;
+    max-width: rem(320);
   }
 }
 
@@ -18,6 +19,12 @@
 @media (max-width: 768px) {
   .feature-join {
     padding: rem(80 0);
+    .item {
+      max-width: none;
+    }
+    .item__descr {
+      max-width: rem(400);
+    }
   }
   .feature-join__list {
     margin-bottom: rem(60);

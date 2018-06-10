@@ -21,16 +21,12 @@
 
 .start__text {
   margin-bottom: rem(35);
-  font-size: rem(42);
+  font-size: rem(72);
   line-height: 1.18;
   span {
     display: block;
     &.bigger {
-      font-size: rem(125);
-      margin-bottom: rem(12);
-    }
-    &.smaller {
-      font-size: rem(105);
+      font-size: rem(106);
     }
   }
 }
@@ -58,13 +54,10 @@
     width: 100%;
   }
   .start__text {
-    font-size: rem(32);
+    font-size: rem(40);
     span {
       &.bigger {
-        font-size: rem(100);
-      }
-      &.smaller {
-        font-size: 4.2rem;
+        font-size: rem(70);
       }
     }
   }
