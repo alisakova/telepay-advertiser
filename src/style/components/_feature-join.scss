@@ -1,6 +1,6 @@
 .feature-join {
   background: $gradient-bg;
-  padding: rem(114 0 110);
+  padding: rem(110 0);
   text-align: center;
   .item {
     color: #fff;
@@ -13,7 +13,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: rem(122);
+  margin-bottom: rem(110);
 }
 
 @media (max-width: 768px) {

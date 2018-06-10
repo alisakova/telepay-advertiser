@@ -1,16 +1,16 @@
 .descr-block {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  padding: rem(80 0 160);
+  padding: rem(110 0 94);
   position: relative;
   width: 100%;
 }
 
 .descr-block__text {
   max-width: rem(630);
-  padding-top: rem(80);
   padding-left: 2.5rem;
+  margin-right: rem(120);
 }
 
 .descr-block__img {
